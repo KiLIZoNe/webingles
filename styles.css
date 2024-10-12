@@ -1,0 +1,139 @@
+/* Estilos globales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8ff;
+    color: #333;
+}
+
+.header {
+    background-color: #0077b6;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+.nav-links {
+    list-style-type: none;
+    padding: 0;
+}
+
+.nav-links li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
+.section {
+    padding: 50px;
+    text-align: center;
+}
+
+#inicio {
+    background-color: #caf0f8;
+}
+
+#agua {
+    background-color: #ade8f4;
+}
+
+#tips {
+    background-color: #90e0ef;
+}
+
+#galeria {
+    background-color: #caf0f8;
+}
+
+#contacto {
+    background-color: #ade8f4;
+}
+
+.tips-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.tip {
+    background-color: white;
+    border: 1px solid #0077b6;
+    border-radius: 8px;
+    padding: 15px;
+    width: 250px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.gallery img {
+    border-radius: 8px;
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+input, textarea {
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #0077b6;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #0077b6;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #005f73;
+}
+
+.footer {
+    background-color: #0077b6;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin-top: 20px;
+    clear: both;
+}
+
+.evento {
+    background-color: white;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
